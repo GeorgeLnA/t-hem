@@ -119,8 +119,7 @@ export default function Index() {
               <div className="flex flex-col items-center gap-6">
                 <div className="text-center">
                   <div className="text-white font-milker text-5xl lg:text-9xl xl:text-[10rem] font-normal leading-tight tracking-[0.2em] uppercase">
-                    <span className="block lg:inline">TOM</span>
-                    <span className="block lg:inline text-red-700">HEMMING</span>
+                    <span className="block lg:inline text-red-700">TH PT</span>
                   </div>
                   <div className="text-white font-inter text-lg lg:text-xl leading-[19.6px] tracking-[-0.32px] uppercase mt-4">
                     Coach, Athlete, Educator & Dad
@@ -136,7 +135,7 @@ export default function Index() {
       <section className="relative h-[1600px] w-full bg-transparent">
         <div className="absolute inset-0 overflow-hidden z-0">
           <img 
-            src="/112.jpg" 
+            src="/smiling-attractive-bodybuilder-with-naked-torso-is-doing-leg-strechening-grey-background.webp" 
             alt="Gym background" 
             className="w-full h-full object-cover transform scale-110"
             style={{ 
@@ -276,7 +275,7 @@ export default function Index() {
             
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 text-center">
               <div className="text-black font-inter text-xs lg:text-[12.578px] leading-tight lg:leading-[19.6px] tracking-[-0.32px] uppercase">
-                Tom Hemming
+                TH PT
               </div>
               <div className="text-black font-inter text-sm lg:text-sm leading-tight lg:leading-[19.6px] tracking-[-0.32px] uppercase">
                 We stand by the person,<br/>not just the numbers
@@ -288,12 +287,10 @@ export default function Index() {
             
             <div className="flex justify-center">
               <div className="w-full max-w-lg lg:max-w-[620px] aspect-square relative group">
-                <div className="absolute inset-0 transform rotate-0 lg:rotate-[-3.16deg] transition-transform duration-500 group-hover:rotate-0">
-                  <img 
-                    src="/114.jpg" 
-                    alt="Training session" 
-                    className="w-full h-full object-cover shadow-2xl"
-                  />
+                <div className="absolute inset-0 transform rotate-0 lg:rotate-[-3.16deg] transition-transform duration-500 group-hover:rotate-0 bg-red-700 flex items-center justify-center shadow-2xl">
+                  <div className="text-white font-inter text-2xl lg:text-4xl font-bold uppercase tracking-wide">
+                    SIGN UP
+                  </div>
                 </div>
               </div>
             </div>
@@ -314,16 +311,9 @@ export default function Index() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="space-y-16 lg:space-y-20">
             <div className="flex flex-col lg:flex-row justify-center items-center gap-8">
-              <div className="flex-shrink-0 order-1 lg:order-1">
-                <img 
-                  src="/tmlogo.png" 
-                  alt="Tom Hemming Logo" 
-                  className="w-12 h-11 lg:w-[60px] lg:h-[55px] object-contain"
-                />
-              </div>
               <div className="flex-1 text-center order-2 lg:order-2 max-w-xs lg:max-w-none">
                 <div className="text-white font-milker text-xl lg:text-3xl font-normal leading-tight tracking-[0.2em] uppercase whitespace-nowrap">
-                  HEMMING'S PRINCIPLES
+                  TH PT'S PRINCIPLES
                 </div>
               </div>
               <div className="w-2 h-2 bg-red-700 mix-blend-difference flex-shrink-0 order-3 lg:order-3"></div>
@@ -412,14 +402,14 @@ export default function Index() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
             <div className="space-y-8">
               <div className="text-black font-arial text-2xl lg:text-[31.313px] font-black leading-tight lg:leading-[43.68px] tracking-[-1.92px] uppercase">
-                TOM'S<br/>Process
+                TH PT'S<br/>Process
               </div>
               <div className="h-px bg-red-700 w-20"></div>
             </div>
             
             <div className="space-y-6">
               <div className="text-black font-inter text-base leading-tight lg:leading-[22.4px] tracking-[-0.32px] uppercase">
-                The Tom Hemming Process empowers you to take control of your transformation journey. You don't always get to control life's challenges, but you can determine how you respond and grow stronger through them.
+                The TH PT Process empowers you to take control of your transformation journey. You don't always get to control life's challenges, but you can determine how you respond and grow stronger through them.
               </div>
               <div className="text-black font-inter text-base leading-tight lg:leading-[22.4px] tracking-[-0.32px] uppercase">
                 Our proven system teaches you how to effectively leverage the things you have control over to make better decisions that will leave you feeling like the CEO of your own transformation rather than the victim of circumstances.
@@ -467,17 +457,8 @@ export default function Index() {
 
 
 
-      {/* Bottom Image Section */}
-      <section className="relative h-[600px] w-full">
-        <div className="absolute inset-0">
-          <img
-            src="/113.jpg"
-            alt="Gym motivation background"
-            className="w-full h-full object-cover"
-            style={{ objectPosition: 'center 20%' }}
-          />
-        </div>
-
+      {/* Bottom Section */}
+      <section className="relative h-[600px] w-full bg-black">
         {/* Content Overlay */}
         <div className="relative z-10 h-full flex flex-col justify-center items-center text-center px-4">
           <div className="max-w-4xl mx-auto space-y-6">
@@ -506,11 +487,6 @@ export default function Index() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
             {/* Brand Section */}
             <div className="text-center lg:text-left space-y-4">
-              <img 
-                src="/tmlogo.png" 
-                alt="Tom Hemming Logo" 
-                className="w-16 h-14 object-contain mx-auto lg:mx-0"
-              />
               <div className="text-white font-inter text-sm leading-relaxed tracking-[-0.32px] uppercase">
                 Coach, Athlete, Educator & Dad<br/>
                 <span className="text-red-700 font-bold">Turning everyday guys into MEN</span>
@@ -566,7 +542,7 @@ export default function Index() {
             
             <div className="mt-8 pt-8 border-t border-white/20 text-center">
               <div className="text-white/70 font-inter text-xs uppercase">
-                © {new Date().getFullYear()} Tom Hemming Coaching. All rights reserved.
+                © {new Date().getFullYear()} TH PT Coaching. All rights reserved.
               </div>
             </div>
           </div>
